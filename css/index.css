@@ -1,0 +1,46 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.Logo:hover {
+    scale: calc(1.05);
+    transition: calc(0.9s);
+    box-shadow: 0px 0px 10px 2px;
+}
+
+.Texto {
+    color: white;
+    text-decoration: none;
+}
+
+.Texto:hover {
+    font-size: 106%;
+    color: blue;
+    text-decoration: underline;
+}
+
+.Visa:hover {
+    color: blue;
+    background-color: white;
+    scale: calc(1.1);
+}
+
+.Mastercard:hover {
+    color: #fe5c01;
+    background-color: white;
+    scale: calc(1.1);
+}
+
+.Paypal:hover {
+    color: #103780;
+    background-color: white;
+    scale: calc(1.1);
+}
+
+.Discover:hover {
+    color: gray;
+    background-color: white;
+    scale: calc(1.1);
+}
