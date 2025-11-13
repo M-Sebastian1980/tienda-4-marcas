@@ -15,6 +15,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+    <link rel="stylesheet" href="/css/inicio-sesion.css">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <title>Tienda 4 MArcas - 2025</title>
@@ -73,6 +74,28 @@
             </div>
         </nav>
     </header>
+    <div class="container">
+      <div class="login-card">
+        <h2 class="text-center mb-4 text-center">Iniciar Sesión</h2>
+        <hr>
+        <img src="/assets/img/Usuario.png" class="w-50 d-block mx-auto" alt="logo_usuario">
+        <form>
+          <div class="mb-3">
+            <label for="email" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="email" placeholder="Ingresa tu email: @mail.com..." maxlength="45" required>
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="password" minlength="6" placeholder="********" required>
+          </div>
+          <button type="submit" class="btn btn-outline-light w-100 mb-3">Entrar</button>
+          <div class="text-center">
+            <p class="small mb-0 py-3">¿No tenés cuenta? <a href="register.html">Registrate aquí</a></p>
+            <a href="/index.html" class="">Volver al Inicio</a>
+          </div>
+        </form>
+      </div>
+    </div>
     <footer">
         <div class="container-fluid bg-black">
             <div class="d-flex justify-content-center">
