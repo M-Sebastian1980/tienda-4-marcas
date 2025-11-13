@@ -9,3 +9,14 @@
     transition: calc(0.9s);
     box-shadow: 0px 0px 10px 2px; 
 }
+
+.Texto {
+    color: white;
+    text-decoration: none;
+}
+
+.Texto:hover {
+    font-size: 106%;
+    color: blue;
+    text-decoration: underline;
+}
