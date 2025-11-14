@@ -19,3 +19,21 @@
     transform: translateX(-50%);
 }
 
+.Boton {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media (max-width: 576px){
+    .Titulo {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 768px){
+    .Titulo {
+        font-size: 25px;
+    }
+}
+
