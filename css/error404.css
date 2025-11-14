@@ -6,4 +6,16 @@
 
 .Error {
     background-color: #4b5059;
+    position: relative;
 }
+
+.Titulo {
+    position: absolute;
+    color: black;
+    font-family: Archivo Black;
+    font-size: 25px;
+    top: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
