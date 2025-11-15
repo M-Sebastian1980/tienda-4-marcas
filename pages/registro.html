@@ -92,15 +92,15 @@
             </div>
             <div class="col-12">
               <label for="email" class="form-label">Correo electrónico</label>
-              <input type="email" id="email" class="form-control" placeholder="Ingresar tu@mail.com" maxlength="30" required>
+              <input type="email" id="email" class="form-control" placeholder="Ingresar tu@mail.com" minlength="8" maxlength="30" required>
             </div>
             <div class="col-md-6">
               <label for="pass" class="form-label">Contraseña</label>
-              <input type="password" id="pass" class="form-control" placeholder="Ingresar contraseña... Mínimo 6 caracteres" minlength="6" required>
+              <input type="password" id="pass" class="form-control" placeholder="Ingresar contraseña... Mínimo 6 caracteres" minlength="6" maxlength="20" required>
             </div>
             <div class="col-md-6">
               <label for="pass2" class="form-label">Repetir contraseña</label>
-              <input type="password" id="pass2" class="form-control" placeholder="Repetír tu contraseña" minlength="6" required>
+              <input type="password" id="pass2" class="form-control" placeholder="Repetír tu contraseña" minlength="6" maxlength="20" required>
             </div>
             
             <div class="col-md-8">
@@ -109,7 +109,7 @@
             </div>
             <div class="col-md-4">
               <label for="cp" class="form-label">Código Postal</label>
-              <input type="text" id="cp" class="form-control" placeholder="Ej: 4000" title="Ingresá 4 dígitos" required>
+              <input type="text" id="cp" class="form-control" placeholder="Ej: 4000" title="Ingresá 4 dígitos" minlength="2" maxlength="6" required>
             </div>
             <div class="col-12">
               <div class="form-check">
