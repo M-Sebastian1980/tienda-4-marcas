@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-h1{
+h1 {
     font-family: Archivo Black;
 }
 
@@ -31,26 +31,26 @@ h1{
     text-decoration: underline;
 }
 
-.Visa:hover {
+.Instagram:hover {
+    color: rgb(255, 255, 255);
+    background: radial-gradient(circle at 30% 107%, rgba(253, 244, 151, 1) 0%, rgba(253, 244, 151, 0) 20%),
+        linear-gradient(45deg, #feda75 0%, #fa7e1e 25%, #d62976 50%, #962fbf 75%, #515bd4 100%);
+
+    scale: calc(1.1);
+}
+
+.Twitter:hover {
+    color: white;
+    background-color: black;
+}
+
+.Facebook:hover {
     color: blue;
     background-color: white;
     scale: calc(1.1);
 }
 
-.Mastercard:hover {
-    color: #fe5c01;
-    background-color: white;
-    scale: calc(1.1);
-}
-
-.Paypal:hover {
-    color: #103780;
-    background-color: white;
-    scale: calc(1.1);
-}
-
-.Discover:hover {
-    color: gray;
-    background-color: white;
-    scale: calc(1.1);
+.Tiktok:hover {
+    color: white;
+    background-color: black;
 }
