@@ -76,7 +76,7 @@
     </header>
     <main>
         <div class="container">
-            <div class="login-card">
+            <div class="login-card border border-secondary rounded-4 p-4 p-md-5">
                 <h2 class="text-center mb-4 text-center">Iniciar Sesión</h2>
                 <hr>
                 <img src="/assets/img/Usuario.png" class="w-50 d-block mx-auto" alt="logo_usuario">
@@ -91,11 +91,19 @@
                         <input type="password" class="form-control" id="password" minlength="6" maxlength="20"
                             placeholder="********" required>
                     </div>
+                    <p class="small pb-3"><a href="/pages/error_404.html">Olvidaste tu contraseña?</a></p>
                     <button type="submit" class="btn btn-outline-light w-100 mb-3">Entrar</button>
                     <div class="text-center">
                         <p class="small mb-0 py-3">¿No tenés cuenta? <a href="/pages/registro.html">Registrate aquí</a>
                         </p>
-                        <a href="/index.html" class="">Volver al Inicio</a>
+                        <p class="small mb-0 py-3">O podés ingresar con:</p>
+                        <div>
+							<a href="https://myaccount.google.com/" target="_blank" class="btn  btn-social btn-block text-danger"><i class="bi bi-google"></i> Ingresar con Google</a>
+						</div>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="btn  btn-social btn-block text-primary pb-5"><i class="bi bi-facebook"></i> Ingresar con Facebook</a>
+						</div>	
+                        <a href="/index.html">Volver al Inicio</a>
                     </div>
                 </form>
             </div>
