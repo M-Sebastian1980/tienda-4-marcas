@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+h1{
+    font-family: Archivo Black;
+}
+
 .Logo:hover {
     scale: calc(1.05);
     transition: calc(0.9s);
