@@ -1,0 +1,31 @@
+
+.card img {
+  transition: transform 0.3s;
+}
+
+.card:hover img {
+  transform: scale(1.08);
+}
+/* Hace scroll horizontal en pantallas pequeñas y medianas */
+@media (max-width: 992px) {
+  #productos-adidas .carousel-item .row {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+  }
+
+  #productos-adidas .carousel-item .col-12,
+  #productos-adidas .carousel-item .col-sm-6,
+  #productos-adidas .carousel-item .col-md-4,
+  #productos-adidas .carousel-item .col-lg-2 {
+    flex: 0 0 auto;   /* Evita que las cards se partan a otra fila */
+    width: 70%;       /* Tamaño de la card en móviles */
+    max-width: 200px; /* Opcional */
+  }
+
+  /* Quitar scrollbars si quieres */
+  #productos-adidas .carousel-item .row::-webkit-scrollbar {
+    display: none;
+  }
+}
