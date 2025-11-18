@@ -21,11 +21,24 @@ h1 {
 
 .Producto {
     font-family: Archivo Black;
+    display: inline-block;
+    position: relative;
+    margin: 0;
 }
 
-.Producto:hover {
-    text-decoration: underline;
-    transition: calc(0.7s);
+.Producto::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    width: 0;
+    height: 3px;
+    background: blue;
+    transition: width 0.36s ease;
+}
+
+.Producto:hover::after {
+  width: 100%;
 }
 
 .Logo:hover {
