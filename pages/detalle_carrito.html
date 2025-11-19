@@ -62,7 +62,6 @@
             <a href="/pages/inicio-sesion.html" class="btn btn-outline-primary m-2 fs-4">
               <i class="bi bi-person"></i>
             </a>
-
             <a href="/pages/detalle_carrito.html" class="btn btn-outline-secondary m-2 fs-5">
               <i class="bi bi-cart4"></i>
             </a>
@@ -71,84 +70,107 @@
       </div>
     </nav>
   </header>
-  <section id="contacto" class="py-5 bg-dark text-light">
+  <section class="py-5 bg-dark text-light">
     <div class="container">
-      <div class="bg-black border border-secondary rounded-4 p-4 p-md-5">
-        <div class="text-center mb-4">
-          <h2 class="fw-bold  mb-2">Contacto</h2>
-          <p class="opacity-50">Escribinos tu consulta y te respondemos a la brevedad.</p>
-        </div>
-
-        <div class="row g-4 ">
-          <div class="col-12 col-lg-6">
-            <form class="needs-validation">
-              <div class="row g-3">
-                <div class="col-md-6">
-                  <label for="nombre" class="form-label">Apellidos y Nombres</label>
-                  <input type="text" class="form-control bg-dark border-secondary" id="nombre"
-                    placeholder="Escribir aquí..." minlength="6" maxlength="25" pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ ]+"
-                    title="Solo se permiten letras y espacios." required>
-                  <div class="invalid-feedback">Ingresá tu nombre.</div>
-                </div>
-                <div class="col-md-6">
-                  <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control bg-dark text-light border-secondary" id="email"
-                    placeholder="nombre@ejemplo.com" minlength="10" maxlength="30"
-                    title="Ingresá un email válido, por ejemplo: juan_perez@correo.com" required>
-                  <div class="invalid-feedback">Ingresá un email válido.</div>
-                </div>
-                <div class="col-md-6">
-                  <label for="telefono" class="form-label">Teléfono</label>
-                  <input type="tel" class="form-control bg-dark text-light border-secondary" id="telefono"
-                    placeholder="+54 9 381 123-4567" pattern="[0-9+\- ()]{6,20}"
-                    title="Solo números, espacios, +, - y paréntesis."
-                    oninput="this.value = this.value.replace(/[^0-9+\- ()]/g, '');" required>
-                </div>
-                <div class="col-md-6">
-                  <label for="asunto" class="form-label">Asunto</label>
-                  <input type="text" class="form-control bg-dark text-light border-secondary" id="asunto"
-                    placeholder="Tema de tu consulta" minlength="10" maxlength="60" pattern="[A-Za-z0-9ÁÉÍÓÚáéíóúÑñ ]+"
-                    title="Solo letras, números y espacios." required>
-                  <div class="invalid-feedback">Indicá un asunto.</div>
-                </div>
-                <div class="col-12">
-                  <label for="mensaje" class="form-label">Mensaje</label>
-                  <textarea class="form-control bg-dark text-light border-secondary" id="mensaje" rows="5"
-                    placeholder="Contanos en qué podemos ayudarte" minlength="10" maxlength="60"
-                    title="Escribí al menos 10 caracteres." required></textarea>
-                  <div class="invalid-feedback">Escribí tu mensaje.</div>
-                </div>
-                <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="acepto" required>
-                    <label class="form-check-label" for="acepto">
-                      Acepto ser contactado por este medio.
-                    </label>
-                    <div class="invalid-feedback">Debés aceptar para enviar.</div>
-                  </div>
-                </div>
-                <div class="col-12 text-center">
-                  <button class="btn btn-outline-light btn-lg px-5" type="submit">Enviar mensaje</button>
-                </div>
-              </div>
-            </form>
+      <h2 class="text-center mb-4">Detalle del Carrito</h2>
+        <div class="p-4 bg-black border border-secondary rounded-4">
+          <h3 class="mb-3">Productos seleccionados</h3>
+            <div class="table-responsive mb-4">
+              <table class="table table-dark table-striped align-middle text-light">
+                <thead>
+                  <tr>
+                  <th>Producto</th>
+                  <th class="text-center">Cantidad</th>
+                  <th class="text-end">Precio</th>
+                  <th class="text-center"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <td>Camiseta Selección Argentina Adidas</td>
+                <td class="text-center">1</td>    
+                <td class="text-end">$179.999</td>
+                <td class="text-center">
+                  <button class="btn btn-sm btn-outline-danger">Eliminar</button>
+                </td>
+                </tr>
+                <tr>
+                <td>Zapatillas Nike</td>
+                <td class="text-center">2</td>            
+                <td class="text-end">$239.999</td>
+                <td class="text-center">
+                  <button class="btn btn-sm btn-outline-danger">Eliminar</button>
+                </td>
+                </tr>
+                <tr>
+                <td>Camiseta Selección de España Adidas</td>
+                <td class="text-center">1</td>             
+                <td class="text-end">$109.000</td>
+                <td class="text-center">
+                  <button class="btn btn-sm btn-outline-danger">Eliminar</button>
+                </td>
+                </tr>
+                <tr>
+                <td>Remera Estampada New Balance</td>
+                <td class="text-center">3</td>           
+                <td class="text-end">$79.999</td>
+                <td class="text-center">
+                  <button class="btn btn-sm btn-outline-danger">Eliminar</button>
+                </td>
+                </tr>
+                <tr>
+                <td>Botines Puma</td>
+                <td class="text-center">1</td>            
+                <td class="text-end">$209.999</td>
+                <td class="text-center">
+                  <button class="btn btn-sm btn-outline-danger">Eliminar</button>
+                </td>
+                </tr>
+                <tr>
+                <td>Remera Nike</td>
+                <td class="text-center">2</td>             
+                <td class="text-end">$59.999</td>
+                <td class="text-center">
+                  <button class="btn btn-sm btn-outline-danger">Eliminar</button>
+                </td>
+                </tr>
+                <tr>
+                <td>Camiseta Selección México Adidas</td>
+                <td class="text-center">1</td>           
+                <td class="text-end">$119.999</td>
+                <td class="text-center">
+                  <button class="btn btn-sm btn-outline-danger">Eliminar</button>
+                </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          <div class="col-12 col-lg-6 d-flex align-items-center">
-            <div class="w-100">
-              <div class="ratio ratio-16x9">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.105244306455!2d-65.20976622563603!3d-26.83660469002611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0e9292ab47%3A0xd6f52c66b9a4d867!2sGral.%20Jos%C3%A9%20Mar%C3%ADa%20Paz%20576%20Piso%209%2C%20Oficina%202%2C%20T4000%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1763203492829!5m2!1ses-419!2sar"
-                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          <div class="row justify-content-end">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="d-flex justify-content-between mb-2">
+                <span>Subtotal:</span>
+                <span>$1.458,990</span>
               </div>
-              <div class="mt-3 small opacity-75">
-                <strong>Ubicación:</strong> General Paz 576, Piso 9, Oficina 2, San Miguel de Tucumán, Argentina.
+              <div class="d-flex justify-content-between mb-2">
+              <span>Envío:</span>
+              <span>$45.500</span>
+              </div>
+              <hr>
+              <div class="d-flex justify-content-between mb-3">
+                <span class="fw-bold">Total a pagar:</span>
+                <span class="fw-bold">$1.504,490</span>
+              </div>
+              <div class="d-grid gap-2">
+                <a href="error_404.html" class="btn btn-success">Proceder con la compra</a>
+                <a href="/index.html" class="btn btn-outline-secondary">Volver y seguir comprando</a>
+                <a href="/index.html" class="btn btn-outline-light btn-sm">Volver al inicio</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-  </section>
+    </section>
   <footer>
     <div class="container-fluid bg-black">
       <div class="d-flex justify-content-center">
