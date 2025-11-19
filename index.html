@@ -2,159 +2,3194 @@
 <html lang="es" data-bs-theme="dark">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Ecommerce de indumentaria y calzado deportivo" />
-    <meta name="keywords" content="indumentaria , calzado , accesorios , marcas , deporte" />
-    <meta name="author" content="Abel Ruiz , Mauro Seu" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc36zN6SZJfxB7pSzQpsdAL0r+v1zU5F5KZ6l8Jp1JXMPV0EE+vDZGQYl4NFWaIx5HxQhXh3Ih8D+N9d8U2NGA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <title>Tienda 4 MArcas - 2025</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ecommerce de indumentaria y calzado deportivo" />
+  <meta name="keywords" content="indumentaria , calzado , accesorios , marcas , deporte" />
+  <meta name="author" content="Abel Ruiz , Mauro Seu" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc36zN6SZJfxB7pSzQpsdAL0r+v1zU5F5KZ6l8Jp1JXMPV0EE+vDZGQYl4NFWaIx5HxQhXh3Ih8D+N9d8U2NGA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/propaganda_final.css">
+  <link rel="stylesheet" href="/css/propaganda_videos.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <title>Tienda 4 MArcas - 2025</title>
 </head>
 
 <body>
-    <header class="navegador sticky-top">
-        <nav class="navbar navbar-expand-lg bg-black shadow">
-            <div class="container">
-                <a class="navbar-brand" href="index.html"><img class="Logo rounded-circle" src="assets/img/Logo.png"
-                        style="width: 180px" alt="Logo" /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="Texto nav-link" aria-current="page" href="/index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="Texto nav-link" href="/pages/nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="Texto nav-link" href="/pages/contacto.html">Contacto</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="Texto nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Marcas
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Adidas</a></li>
-                                <li><a class="dropdown-item" href="#">Puma</a></li>
-                                <li><a class="dropdown-item" href="#">Nike</a></li>
-                                <li><a class="dropdown-item" href="#">New Balance</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control m-2" type="search" placeholder="Buscar productos..."
-                            aria-label="Search" />
-                        <button class="btn btn-outline-success m-2" type="submit">
-                            Buscar
-                        </button>
-                        <a href="/pages/inicio-sesion.html" class="btn btn-outline-primary m-2 fs-4">
-                            <i class="bi bi-person"></i>
-                        </a>
-
-                        <button class="btn btn-outline-secondary m-2 fs-5" type="button">
-                            <i class="bi bi-cart4"></i>
-                        </button>
-                    </form>
+  <header class="navegador sticky-top">
+    <nav class="navbar navbar-expand-lg bg-black shadow">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html"><img class="Logo-Nav rounded-circle" src="/assets/img/Logo.png"
+            style="width: 105px" alt="Logo" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="Texto nav-link" aria-current="page" href="/index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="Texto nav-link" href="/pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="Texto nav-link" href="/pages/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="Texto nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Marcas
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#productos-adidas">Adidas</a></li>
+                <li><a class="dropdown-item" href="#productos-puma">Puma</a></li>
+                <li><a class="dropdown-item" href="#productos-nike">Nike</a></li>
+                <li><a class="dropdown-item" href="#productos-new_balance">New Balance</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control m-2" type="search" placeholder="Buscar productos..." aria-label="Search" />
+            <button class="btn btn-outline-success m-2" type="submit">
+              Buscar
+            </button>
+            <a href="/pages/inicio-sesion.html" class="btn btn-outline-primary m-2 fs-4">
+              <i class="bi bi-person"></i>
+            </a>
+            <a href="/pages/detalle_carrito.html" class="btn btn-outline-secondary m-2 fs-5">
+              <i class="bi bi-cart4"></i>
+            </a>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="CarruselPrincipal" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/carrusel/Adidas.jpg" class="d-block w-100" alt="Adidas">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carrusel/Nike.jpg" class="d-block w-100" alt="Nike">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carrusel/Authentic.jpg" class="d-block w-100" alt="Authentic">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carrusel/Puma.jpg" class="d-block w-100" alt="Puma">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carrusel/Just-Do-It.jpg" class="d-block w-100" alt="Just Do It">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carrusel/New-Balance.jpg" class="d-block w-100" alt="New Balance">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#CarruselPrincipal" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#CarruselPrincipal" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <h1 class="text-center p-5">- Nuestras marcas principales -</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-3 col-lg-3">
+          <img src="assets/img/cards/Adidas.jpg" alt="Adidas" class="Card img-fluid rounded-3 mb-4"
+            data-bs-toggle="modal" data-bs-target="#Modal1">
+        </div>
+        <div class="col-6 col-md-3 col-lg-3">
+          <img src="assets/img/cards/Nike.jpg" alt="Nike" class="Card img-fluid rounded-3 mb-4" data-bs-toggle="modal"
+            data-bs-target="#Modal2">
+        </div>
+        <div class="col-6 col-md-3 col-lg-3">
+          <img src="assets/img/cards/New-Balance.jpg" alt="New Balance" class="Card img-fluid rounded-3"
+            data-bs-toggle="modal" data-bs-target="#Modal3">
+        </div>
+        <div class="col-6 col-md-3 col-lg-3">
+          <img src="assets/img/cards/Puma.png" alt="Puma" class="Card img-fluid rounded-3" data-bs-toggle="modal"
+            data-bs-target="#Modal4">
+        </div>
+      </div>
+    </div>
+    <details class="mt-4">
+      <summary><img id="productos-adidas" src="assets/img/heros/Adidas.jpg" alt="Portada Adidas" class="Adidas w-100"></summary>
+      <div class="container mt-4">
+        <div class="text-center">
+          <h2 class="Producto">Camisetas de Futbol</h2>
+        </div>
+        <div id="carouselCamisetas" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/camisetas/Argentina.png" alt="Camiseta Argentina" class="img-fluid">
                 </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <a href="pages/detalle-de-producto/camiseta-river.html">
+                    <img src="assets/img/adidas/camisetas/River.png" alt="Camiseta River" class="img-fluid">
+                  </a>
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <a href="pages/detalle-de-producto/camiseta-boca.html">
+                    <img src="assets/img/adidas/camisetas/Boca.png" alt="Camiseta Boca" class="img-fluid">
+                  </a>
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/camisetas/Alemania.png" alt="Camiseta Alemania" class="img-fluid">
+                </div>
+              </div>
             </div>
-        </nav>
-    </header>
-    <main>
-        <div id="CarruselPrincipal" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/camisetas/Italia.png" alt="Camiseta Italia" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/camisetas/Mexico.png" alt="Camiseta Mexico" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/camisetas/España.png" alt="Camiseta España" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/camisetas/Peru.png" alt="Camiseta Perú" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselCamisetas" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselCamisetas" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="text-center">
+          <h2 class="Producto">Zapatillas</h2>
+        </div>
+        <div id="carouselZapatillas" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/zapatillas/Zapatilla-1.png" alt="Zapatilla-1" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/zapatillas/Zapatilla-2.png" alt="Zapatilla-2" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/zapatillas/Zapatilla-3.png" alt="Zapatilla-3" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/zapatillas/Zapatilla-4.png" alt="Zapatilla-4" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/zapatillas/Zapatilla-5.png" alt="Zapatilla-5" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/zapatillas/Zapatilla-6.png" alt="Zapatilla-6" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/zapatillas/Zapatilla-7.png" alt="Zapatilla-7" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/zapatillas/Zapatilla-8.png" alt="Zapatilla-8" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselZapatillas" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselZapatillas" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="text-center">
+          <h2 class="Producto">Shorts</h2>
+        </div>
+        <div id="carouselShorts" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/shorts/Short-1.png" alt="Short 1" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/shorts/Short-2.png" alt="Short 2" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/shorts/Short-3.png" alt="Short 3" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/shorts/Short-4.png" alt="Short 4" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/shorts/Short-5.png" alt="Short 5" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/shorts/Short-6.png" alt="Short 6" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/shorts/Short-7.png" alt="Short 7" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/shorts/Short-8.png" alt="Short 8" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselShorts" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselShorts" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="text-center">
+          <h2 class="Producto">Botines</h2>
+        </div>
+        <div id="carouselBotines" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/botines/Botin-1.png" alt="Botin 1" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/botines/Botin-2.png" alt="Botin 2" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/botines/Botin-3.png" alt="Botin 3" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/botines/Botin-4.png" alt="Botin 4" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/botines/Botin-5.png" alt="Botin 5" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/botines/Botin-6.png" alt="Botin 6" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/botines/Botin-7.png" alt="Botin 7" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/botines/Botin-8.png" alt="Botin 8" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselBotines" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselBotines" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="text-center">
+          <h2 class="Producto">Camperas</h2>
+        </div>
+        <div id="carouselCamperas" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/camperas/Campera-1.png" alt="Campera 1" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/camperas/Campera-2.png" alt="Campera 2" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/camperas/Campera-3.png" alt="Campera 3" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/camperas/Campera-4.png" alt="Campera 4" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/camperas/Campera-5.png" alt="Campera 5" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/camperas/Campera-6.png" alt="Campera 6" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/camperas/Campera-7.png" alt="Campera 7" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/adidas/camperas/Campera-8.png" alt="Campera 8" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselCamperas" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselCamperas" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </details>
+    <details>
+      <summary><img src="assets/img/heros/Nike.jpg" alt="Portada Nike" class="Nike w-100"></summary>
+      <div class="container mt-4">
+        <div class="text-center">
+          <h2 class="Producto">Zapatillas</h2>
+          <div id="carouselZapatilla" class="carousel slide">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assets/img/carrusel/Adidas.jpg" class="d-block w-100" alt="Adidas">
+              <div class="carousel-item active">
+                <div class="d-flex">
+                  <div class="col-3 col-md-3 col-lg-3">
+                    <img src="assets/img/nike/zapatillas/Zapatilla-1.png" alt="Zapatilla 1" class="img-fluid">
+                  </div>
+                  <div class="col-3 col-md-3 col-lg-3">
+                    <img src="assets/img/nike/zapatillas/Zapatilla-2.png" alt="Zapatilla 2" class="img-fluid">
+                  </div>
+                  <div class="col-3 col-md-3 col-lg-3">
+                    <img src="assets/img/nike/zapatillas/Zapatilla-3.png" alt="Zapatilla 3" class="img-fluid">
+                  </div>
+                  <div class="col-3 col-md-3 col-lg-3">
+                    <img src="assets/img/nike/zapatillas/Zapatilla-4.png" alt="Zapatilla 4" class="img-fluid">
+                  </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="assets/img/carrusel/Nike.jpg" class="d-block w-100" alt="Nike">
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex">
+                  <div class="col-3 col-md-3 col-lg-3">
+                    <img src="assets/img/nike/zapatillas/Zapatilla-5.png" alt="Zapatilla 5" class="img-fluid">
+                  </div>
+                  <div class="col-3 col-md-3 col-lg-3">
+                    <img src="assets/img/nike/zapatillas/Zapatilla-6.png" alt="Zapatilla 6" class="img-fluid">
+                  </div>
+                  <div class="col-3 col-md-3 col-lg-3">
+                    <img src="assets/img/nike/zapatillas/Zapatilla-7.png" alt="Zapatilla 7" class="img-fluid">
+                  </div>
+                  <div class="col-3 col-md-3 col-lg-3">
+                    <img src="assets/img/nike/zapatillas/Zapatilla-8.png" alt="Zapatilla 8" class="img-fluid">
+                  </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="assets/img/carrusel/Authentic.jpg" class="d-block w-100" alt="Authentic">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/carrusel/Puma.jpg" class="d-block w-100" alt="Puma">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/carrusel/Just-Do-It.jpg" class="d-block w-100" alt="Just Do It">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/carrusel/New-Balance.jpg" class="d-block w-100" alt="New Balance">
-                </div>
+              </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#CarruselPrincipal"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselZapatilla"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#CarruselPrincipal"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselZapatilla"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
             </button>
+          </div>
         </div>
-    </main>
-    <footer">
-        <div class="container-fluid bg-black">
-            <div class="d-flex justify-content-center">
-                <a class="text-center" href="index.html">
-                    <img src="assets/img/Logo.png" alt="Logo"
-                        class="Logo col-4 col-md-2 col-lg-2 p-1 my-4 img-fluid rounded-circle">
-                </a>
-            </div>
-            <div class="row text-center">
-                <div class="col-12 col-md-6 col-lg-3 px-5">
-                    <a class="Texto" href="index.html">Inicio</a><br>
-                    <a class="Texto" href="pages/contacto.html">Contacto</a><br>
-                    <a class="Texto" href="pages/nosotros.html">Nosotros</a><br>
-                    <a class="Texto" href="#">Términos y condiciones</a><br>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 px-5">
-                    <a class="Texto" href="pages/inicio-sesion.html">Iniciar sesion</a><br>
-                    <a class="Texto" href="pages/registro.html">Registrarse</a><br>
-                    <a class="Texto" href="#">Realizar pedidos</a><br>
-                    <a class="Texto" href="#">Novedades</a><br>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 px-5">
-                    <a class="Texto" href="#">Como comprar</a><br>
-                    <a class="Texto" href="#">Tabla de talles</a><br>
-                    <a class="Texto" href="#">Sucursales</a><br>
-                    <a class="Texto" href="#">Metodos de pago</a><br>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 px-5">
-                    <a class="Texto" href="#">Envios</a><br>
-                    <a class="Texto" href="#">Privacidad</a><br>
-                    <a class="Texto" href="#">Tienda</a><br>
-                    <a class="Texto" href="pages/error_404.html">Cambios y devoluciones</a><br>
-                </div>
-                <p class="p-5">© Glam Todos los Derechos Reservados - 2025</p>
-                <hr>
-            </div>
-            <div class="d-flex justify-content-center gap-3 pb-4">
-                <i class="Visa fa-brands fa-cc-visa fa-2x"></i>
-                <i class="Mastercard fa-brands fa-cc-mastercard fa-2x"></i>
-                <i class="Paypal fa-brands fa-cc-paypal fa-2x"></i>
-                <i class="Discover fa-brands fa-cc-discover fa-2x"></i>
-            </div>
+        <div class="text-center">
+          <h2 class="Producto">Camisetas</h2>
         </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/362f238c3f.js" crossorigin="anonymous"></script>
+        <div id="camisetas" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/camisetas/Camiseta-1.png" alt="Camiseta 1" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/camisetas/Camiseta-2.png" alt="Camiseta 2" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/camisetas/Camiseta-3.png" alt="Camiseta 3" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/camisetas/Camiseta-4.png" alt="Camiseta 4" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/camisetas/Camiseta-5.png" alt="Camiseta 5" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/camisetas/Camiseta-6.png" alt="Camiseta 6" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/camisetas/Camiseta-7.png" alt="Camiseta 7" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/camisetas/Camiseta-8.png" alt="Camiseta 8" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#camisetas" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#camisetas" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="text-center">
+          <h2 class="Producto">Gorras</h2>
+        </div>
+        <div id="carouselGorras" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/gorras/Gorra-1.png" alt="Gorra 1" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/gorras/Gorra-2.png" alt="Gorra 2" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/gorras/Gorra-3.png" alt="Gorra 3" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/gorras/Gorra-4.png" alt="Gorra 4" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/gorras/Gorra-5.jpeg" alt="Gorra 5" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/gorras/Gorra-6.png" alt="Gorra 6" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/gorras/Gorra-7.png" alt="Gorra 7" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/gorras/Gorra-8.png" alt="Gorra 8" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselGorras" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselGorras" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="text-center">
+          <h2 class="Producto">Camperas</h2>
+        </div>
+        <div id="carouselCampera" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/camperas/Campera-1.png" alt="Campera 1" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/camperas/Campera-2.png" alt="Campera 2" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/camperas/Campera-3.png" alt="Campera 3" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/camperas/Campera-4.png" alt="Campera 4" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/camperas/Campera-5.png" alt="Campera 5" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/camperas/Campera-6.png" alt="Campera 6" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/camperas/Campera-7.png" alt="Campera 7" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/camperas/Campera-8.png" alt="Campera 8" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselCampera" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselCampera" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="text-center">
+          <h2 class="Producto">Zapatillas de Basket</h2>
+        </div>
+        <div id="carouselBasket" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/zapatillas-basket/Zapatilla-Basket-1.jpeg" alt="Zapatilla Basket 1" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/zapatillas-basket/Zapatilla-Basket-2.png" alt="Zapatilla Basket 2" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/zapatillas-basket/Zapatilla-Basket-3.png" alt="Zapatilla Basket 3" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/zapatillas-basket/Zapatilla-Basket-4.png" alt="Zapatilla Basket 4" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/zapatillas-basket/Zapatilla-Basket-5.png" alt="Zapatilla Basket 5" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/zapatillas-basket/Zapatilla-Basket-6.png" alt="Zapatilla Basket 6" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/zapatillas-basket/Zapatilla-Basket-7.png" alt="Zapatilla Basket 7" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/zapatillas-basket/Zapatilla-Basket-8.png" alt="Zapatilla Basket 8" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselBasket" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselBasket" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="text-center">
+          <h2 class="Producto">Bolsos</h2>
+        </div>
+        <div id="carouselBolsos" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/bolsos/Bolso-1.png" alt="Bolso 1" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/bolsos/Bolso-2.png" alt="Bolso 2" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/bolsos/Bolso-3.png" alt="Bolso 3" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/bolsos/Bolso-4.png" alt="Bolso 4" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/bolsos/Bolso-5.png" alt="Bolso 5" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/bolsos/Bolso-6.png" alt="Bolso 6" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/bolsos/Bolso-7.png" alt="Bolso 7" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/nike/bolsos/Bolso-8.png" alt="Bolso 8" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselBolsos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselBolsos" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </details>
+    <details>
+      <summary><img src="assets/img/heros/Puma.jpg" alt="Portada Puma" class="Puma w-100"></summary>
+      <div class="container mt-4">
+        <div class="text-center">
+          <h2 class="Producto">Zapatillas</h2>
+        </div>
+        <div id="carouselzapatilla" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/zapatillas/Zapatilla-1.png" alt="Zapatilla 1" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/zapatillas/Zapatilla-2.png" alt="Zapatilla 2" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/zapatillas/Zapatilla-3.png" alt="Zapatilla 3" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/zapatillas/Zapatilla-4.png" alt="Zapatilla 4" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/zapatillas/Zapatilla-5.png" alt="Zapatilla 5" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/zapatillas/Zapatilla-6.png" alt="Zapatilla 6" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/zapatillas/Zapatilla-7.png" alt="Zapatilla 7" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/zapatillas/Zapatilla-8.png" alt="Zapatilla 8" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselzapatilla" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselzapatilla" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="text-center">
+          <h2 class="Producto">Camisetas</h2>
+        </div>
+        <div id="carouselcamisetas" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/camisetas/Camiseta-1.png" alt="Camiseta 1" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/camisetas/Camiseta-2.png" alt="Camiseta 2" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/camisetas/Camiseta-3.png" alt="Camiseta 3" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/camisetas/Camiseta-4.png" alt="Camiseta 4" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/camisetas/Camiseta-5.png" alt="Camiseta 5" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/camisetas/Camiseta-6.png" alt="Camiseta 6" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/camisetas/Camiseta-7.png" alt="Camiseta 7" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/camisetas/Camiseta-8.png" alt="Camiseta 8" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselcamisetas" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselcamisetas" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="text-center">
+          <h2 class="Producto">Pelotas</h2>
+        </div>
+        <div id="carouselPelotas" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/pelotas/Pelota-1.png" alt="Pelota 1" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/pelotas/Pelota-2.png" alt="Pelota 2" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/pelotas/Pelota-3.png" alt="Pelota 3" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/pelotas/Pelota-4.png" alt="Pelota 4" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/pelotas/Pelota-5.png" alt="Pelota 5" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/pelotas/Pelota-6.png" alt="Pelota 6" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/pelotas/Pelota-7.png" alt="Pelota 7" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/pelotas/Pelota-8.png" alt="Pelota 8" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselPelotas" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselPelotas" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="text-center">
+          <h2 class="Producto">Shorts</h2>
+        </div>
+        <div id="carouselshorts" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/shorts/Short-1.png" alt="Short 1" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/shorts/Short-2.png" alt="Short 2" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/shorts/Short-3.png" alt="Short 3" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/shorts/Short-4.png" alt="Short 4" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/shorts/Short-5.png" alt="Short 5" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/shorts/Short-6.png" alt="Short 6" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/shorts/Short-7.png" alt="Short 7" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/shorts/Short-8.png" alt="Short 8" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselshorts" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselshorts" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="text-center">
+          <h2 class="Producto">Gorras</h2>
+        </div>
+        <div id="carouselGorra" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/gorras/Gorra-1.png" alt="Gorra 1" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/gorras/Gorra-2.png" alt="Gorra 2" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/gorras/Gorra-3.png" alt="Gorra 3" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/gorras/Gorra-4.png" alt="Gorra 4" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/gorras/Gorra-5.png" alt="Gorra 5" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/gorras/Gorra-6.png" alt="Gorra 6" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/gorras/Gorra-7.png" alt="Gorra 7" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/gorras/Gorra-8.png" alt="Gorra 8" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselGorra" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselGorra" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="text-center">
+          <h2 class="Producto">Camperas</h2>
+        </div>
+        <div id="carouselcamperas" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/camperas/Campera-1.png" alt="Campera 1" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/camperas/Campera-2.png" alt="Campera 2" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/camperas/Campera-3.png" alt="Campera 3" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/camperas/Campera-4.png" alt="Campera 4" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/camperas/Campera-5.png" alt="Campera 5" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/camperas/Campera-6.png" alt="Campera 6" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/camperas/Campera-7.png" alt="Campera 7" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/puma/camperas/Campera-8.png" alt="Campera 8" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselcamperas" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselcamperas" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>>
+    </details>
+    <details>
+      <summary><img src="assets/img/heros/New-Balance.jpg" alt="New Balance" class="NewBalance w-100"></summary>
+      <div class="container mt-4">
+        <div class="text-center">
+          <h2 class="Producto">Camisetas</h2>
+        </div>
+        <div id="Camiseta" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/camisetas/Camiseta-1.png" alt="Camiseta 1" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/camisetas/Camiseta-2.png" alt="Camiseta 2" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/camisetas/Camiseta-3.png" alt="Camiseta 3" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/camisetas/Camiseta-4.png" alt="Camiseta 4" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/camisetas/Camiseta-5.png" alt="Camiseta 5" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/camisetas/Camiseta-6.png" alt="Camiseta 6" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/camisetas/Camiseta-7.png" alt="Camiseta 7" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/camisetas/Camiseta-8.png" alt="Camiseta 8" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#Camiseta" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#Camiseta" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="text-center">
+          <h2 class="Producto">Buzos</h2>
+        </div>
+        <div id="carouselBuzos" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/buzos/Buzo-1.png" alt="Buzo 1" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/buzos/Buzo-2.png" alt="Buzo 2" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/buzos/Buzo-3.png" alt="Buzo 3" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/buzos/Buzo-4.png" alt="Buzo 4" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/buzos/Buzo-5.png" alt="Buzo 5" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/buzos/Buzo-6.png" alt="Buzo 6" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/buzos/Buzo-7.png" alt="Buzo 7" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/buzos/Buzo-8.png" alt="Buzo 8" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselBuzos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselBuzos" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="text-center">
+          <h2 class="Producto">Zapatillas</h2>
+        </div>
+        <div id="carouselZapa" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/zapatillas/Zapatilla-1.png" alt="Zapatilla 1" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/zapatillas/Zapatilla-2.png" alt="Zapatilla 2" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/zapatillas/Zapatilla-3.png" alt="Zapatilla 3" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/zapatillas/Zapatilla-4.png" alt="Zapatilla 4" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/zapatillas/Zapatilla-5.png" alt="Zapatilla 5" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/zapatillas/Zapatilla-6.png" alt="Zapatilla 6" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/zapatillas/Zapatilla-7.png" alt="Zapatilla 7" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/zapatillas/Zapatilla-8.png" alt="Zapatilla 8" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselZapa" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselZapa" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="text-center">
+          <h2 class="Producto">Gorras</h2>
+        </div>
+        <div id="Gorras" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/gorras/Gorra-1.png" alt="Gorra 1" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/gorras/Gorra-2.png" alt="Gorra 2" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/gorras/Gorra-3.png" alt="Gorra 3" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/gorras/Gorra-4.png" alt="Gorra 4" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/gorras/Gorra-5.png" alt="Gorra 5" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/gorras/Gorra-6.png" alt="Gorra 6" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/gorras/Gorra-7.png" alt="Gorra 7" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/gorras/Gorra-8.png" alt="Gorra 8" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#Gorras" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#Gorras" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="text-center">
+          <h2 class="Producto">Remeras</h2>
+        </div>
+        <div id="carouselRemeras" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/remeras/Remera-1.png" alt="Remera 1" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/remeras/Remera-2.png" alt="Remera 2" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/remeras/Remera-3.png" alt="Remera 3" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/remeras/Remera-4.png" alt="Remera 4" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/remeras/Remera-5.png" alt="Remera 5" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/remeras/Remera-6.png" alt="Remera 6" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/remeras/Remera-7.png" alt="Remera 7" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-3 col-lg-3">
+                  <img src="assets/img/new-balance/remeras/Remera-8.png" alt="Remera 8" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselRemeras" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselRemeras" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </details>
+    <h1 class="text-center pt-5">- Categorias -</h1>
+    <section  class="py-5 bg-dark text-light">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h2 class="Producto">Camisetas</h2>
+          <div class="d-none d-md-flex gap-2">
+            <button type="button" data-bs-target="#camisetaCarousel" data-bs-slide-to="0"
+              class="btn btn-sm btn-outline-light" aria-current="true">1</button>
+            <button type="button" data-bs-target="#camisetaCarousel" data-bs-slide-to="1"
+              class="btn btn-sm btn-outline-light">2</button>
+            <button type="button" data-bs-target="#camisetaCarousel" data-bs-slide-to="2"
+              class="btn btn-sm btn-outline-light">3</button>
+            <button type="button" data-bs-target="#camisetaCarousel" data-bs-slide-to="3"
+              class="btn btn-sm btn-outline-light">4</button>
+          </div>
+        </div>
+
+        <div id="camisetaCarousel" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-inner">            
+            <div class="carousel-item active">
+              <div class="row g-3">
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/adidas/camisetas/Argentina.png" class="card-img-top" alt="Producto 1">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta Argentina</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Camiseta titular de la Selección.</p>
+                      <div class="fw-bold mt-2 text-center">$ 179.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/adidas/camisetas/Alemania.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta Alemania</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Camiseta suplente de la Selección.</p>
+                      <div class="fw-bold mt-2 text-center">$ 149.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/adidas/camisetas/España.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta España</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Camiseta suplente de la Selección.</p>
+                      <div class="fw-bold mt-2 text-center">$ 119.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/adidas/camisetas/Italia.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta Italia</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con suela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 189.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/adidas/camisetas/Mexico.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta Mexico</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con suela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 159.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/adidas/camisetas/Peru.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta perú</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con suela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 149.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+              <div class="row g-3">
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/puma/camisetas/Camiseta-1.png" class="card-img-top" alt="Producto 7">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta Independiente</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Buso de running con capucha amortiguación
+                        ligera.</p>
+                      <div class="fw-bold mt-2 text-center">$ 99.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/puma/camisetas/Camiseta-2.png" class="card-img-top" alt="Producto 8">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta Borussia</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Buso urbano con capucha de alta costura.</p>
+                      <div class="fw-bold mt-2 text-center">$ 79.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/puma/camisetas/Camiseta-3.png" class="card-img-top" alt="Producto 9">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta Manchester City Suplente</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Buso estilo urbano con capucha de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 100.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/puma/camisetas/Camiseta-4.png" class="card-img-top" alt="Producto 10">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta Milan</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con tela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 59.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/puma/camisetas/Camiseta-5.png" class="card-img-top" alt="Producto 11">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta Milan Suplente</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Short estilo urbano con tela de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 49.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/puma/camisetas/Camiseta-6.png" class="card-img-top" alt="Producto 3">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta Manchester City</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Short estilo urbano con tela de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 39.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row g-3">
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/nike/camisetas/Camiseta-1.png" class="card-img-top" alt="Producto 13">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta Portugal</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Anteojos de running de alta duración.</p>
+                      <div class="fw-bold mt-2 text-center">$ 129.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/nike/camisetas/Camiseta-2.png" class="card-img-top" alt="Producto 14">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta Francia</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Reloj estilo clásico de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 399.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/nike/camisetas/Camiseta-3.png" class="card-img-top" alt="Producto 15">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta paises Bajos</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano hecha con madera de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 249.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/nike/camisetas/Camiseta-4.png" class="card-img-top" alt="Producto 16">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta Croacia</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Camiseta titular de la Selección.</p>
+                      <div class="fw-bold mt-2 text-center">$ 179.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/nike/camisetas/Camiseta-8.png" class="card-img-top" alt="Producto 17">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta Brazil</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con suela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 189.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/nike/camisetas/Camiseta-6.png" class="card-img-top" alt="Producto 18">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta Turquia</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Buso estilo urbano con capucha de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 459.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="carousel-item">
+              <div class="row g-3">
+               
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/new-balance/camisetas/Camiseta-1.png" class="card-img-top" alt="Producto 19">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con tela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 49.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/new-balance/camisetas/Camiseta-2.png" class="card-img-top" alt="Producto 20">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con suela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 199.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/new-balance/camisetas/Camiseta-3.png" class="card-img-top" alt="Producto 21">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Reloj estilo clásico de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 399.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/new-balance/camisetas/Camiseta-4.png" class="card-img-top" alt="Producto 22">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Short estilo urbano con tela de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 39.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/new-balance/camisetas/Camiseta-5.png" class="card-img-top" alt="Producto 23">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Camiseta suplente de la Selección.</p>
+                      <div class="fw-bold mt-2 text-center">$ 149.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/new-balance/camisetas/Camiseta-6.png" class="card-img-top" alt="Producto 24">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Buso estilo urbano con capucha de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 100.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          
+          <button class="carousel-control-prev" type="button" data-bs-target="#camisetaCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#camisetaCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="productos-puma" class="py-5 bg-dark text-light">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h2 class="Producto">Zapatillas</h2>
+          
+          <div class="d-none d-md-flex gap-2">
+            <button type="button" data-bs-target="#zapatillaCarousel" data-bs-slide-to="0"
+              class="btn btn-sm btn-outline-light" aria-current="true">1</button>
+            <button type="button" data-bs-target="#zapatillaCarousel" data-bs-slide-to="1"
+              class="btn btn-sm btn-outline-light">2</button>
+            <button type="button" data-bs-target="#zapatillaCarousel" data-bs-slide-to="2"
+              class="btn btn-sm btn-outline-light">3</button>
+            <button type="button" data-bs-target="#zapatillaCarousel" data-bs-slide-to="3"
+              class="btn btn-sm btn-outline-light">4</button>
+          </div>
+        </div>
+
+        <div id="zapatillaCarousel" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-inner">
+
+            
+            <div class="carousel-item active">
+              <div class="row g-3">
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/adidas/zapatillas/Zapatilla-1.png" class="card-img-top" alt="Producto 1">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Camiseta titular de la Selección.</p>
+                      <div class="fw-bold mt-2 text-center">$ 179.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/adidas/zapatillas/Zapatilla-2.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Camiseta suplente de la Selección.</p>
+                      <div class="fw-bold mt-2 text-center">$ 149.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/adidas/zapatillas/Zapatilla-3.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Camiseta suplente de la Selección.</p>
+                      <div class="fw-bold mt-2 text-center">$ 119.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/adidas/zapatillas/Zapatilla-4.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con suela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 189.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/adidas/zapatillas/Zapatilla-5.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con suela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 159.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/adidas/zapatillas/Zapatilla-6.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con suela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 149.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="carousel-item">
+              <div class="row g-3">
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/puma/zapatillas/Zapatilla-1.png" class="card-img-top" alt="Producto 7">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Buso de running con capucha amortiguación
+                        ligera.</p>
+                      <div class="fw-bold mt-2 text-center">$ 99.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/puma/zapatillas/Zapatilla-2.png" class="card-img-top" alt="Producto 8">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Buso urbano con capucha de alta costura.</p>
+                      <div class="fw-bold mt-2 text-center">$ 79.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/puma/zapatillas/Zapatilla-3.png" class="card-img-top" alt="Producto 9">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Buso estilo urbano con capucha de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 100.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/puma/zapatillas/Zapatilla-4.png" class="card-img-top" alt="Producto 10">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con tela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 59.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/puma/zapatillas/Zapatilla-5.png" class="card-img-top" alt="Producto 11">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Short estilo urbano con tela de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 49.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/puma/zapatillas/Zapatilla-6.png" class="card-img-top" alt="Producto 3">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Short estilo urbano con tela de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 39.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="carousel-item">
+              <div class="row g-3">
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/nike/zapatillas/Zapatilla-1.png" class="card-img-top" alt="Producto 13">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Anteojos de running de alta duración.</p>
+                      <div class="fw-bold mt-2 text-center">$ 129.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/nike/zapatillas/Zapatilla-2.png" class="card-img-top" alt="Producto 14">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Reloj estilo clásico de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 399.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/nike/zapatillas/Zapatilla-7.png" class="card-img-top" alt="Producto 15">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano hecha con madera de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 249.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/nike/zapatillas/Zapatilla-4.png" class="card-img-top" alt="Producto 16">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Camiseta titular de la Selección.</p>
+                      <div class="fw-bold mt-2 text-center">$ 179.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/nike/zapatillas/Zapatilla-5.png" class="card-img-top" alt="Producto 17">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con suela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 189.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/nike/zapatillas/Zapatilla-8.png" class="card-img-top" alt="Producto 18">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Buso estilo urbano con capucha de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 459.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="carousel-item">
+              <div class="row g-3">
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/new-balance/zapatillas/Zapatilla-1.png" class="card-img-top" alt="Producto 19">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con tela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 49.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/new-balance/zapatillas/Zapatilla-2.png" class="card-img-top" alt="Producto 20">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con suela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 199.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/new-balance/zapatillas/Zapatilla-3.png" class="card-img-top" alt="Producto 21">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Reloj estilo clásico de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 399.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/new-balance/zapatillas/Zapatilla-4.png" class="card-img-top" alt="Producto 22">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Short estilo urbano con tela de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 39.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/new-balance/zapatillas/Zapatilla-5.png" class="card-img-top" alt="Producto 23">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Camiseta suplente de la Selección.</p>
+                      <div class="fw-bold mt-2 text-center">$ 149.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="assets/img/new-balance/zapatillas/Zapatilla-8.png" class="card-img-top" alt="Producto 24">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Buso estilo urbano con capucha de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 100.999</div>
+                      <a href="#" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          
+          <button class="carousel-control-prev" type="button" data-bs-target="#zapatillaCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#zapatillaCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="productos-nike" class="py-5 bg-dark text-light">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h2 class="h3 fw-bold text-uppercase mb-0">Productos Nike</h2>
+          <!-- Indicadores (opcionales) -->
+          <div class="d-none d-md-flex gap-2">
+            <button type="button" data-bs-target="#adidasCarousel" data-bs-slide-to="0"
+              class="btn btn-sm btn-outline-light" aria-current="true">1</button>
+            <button type="button" data-bs-target="#adidasCarousel" data-bs-slide-to="1"
+              class="btn btn-sm btn-outline-light">2</button>
+            <button type="button" data-bs-target="#adidasCarousel" data-bs-slide-to="2"
+              class="btn btn-sm btn-outline-light">3</button>
+            <button type="button" data-bs-target="#adidasCarousel" data-bs-slide-to="3"
+              class="btn btn-sm btn-outline-light">4</button>
+          </div>
+        </div>
+
+        <div id="adidasCarousel" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-inner">
+
+            <!-- ===== Slide 1 (productos 1–6) ===== -->
+            <div class="carousel-item active">
+              <div class="row g-3">
+                <!-- Card 1-->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Camiseta-1.png" class="card-img-top" alt="Producto 1">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta n°1</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Camiseta titular de la Selección.</p>
+                      <div class="fw-bold mt-2 text-center">$ 179.999</div>
+                      <a href="/Assets/img/Camiseta-1.png" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Camiseta-2.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta n°2</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Camiseta suplente de la Selección.</p>
+                      <div class="fw-bold mt-2 text-center">$ 149.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Camiseta-3.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta n°3</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Camiseta suplente de la Selección.</p>
+                      <div class="fw-bold mt-2 text-center">$ 119.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Zapatillas-Adidas-1.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla n°1</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con suela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 189.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Zapatillas-Adidas-2.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla n°2</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con suela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 159.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Zapatillas-Adidas-3.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla n°3</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con suela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 149.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ===== Slide 2 (productos 7–12) ===== -->
+            <div class="carousel-item">
+              <div class="row g-3">
+                <!-- Card 7-->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Buso-Basico-1.png" class="card-img-top" alt="Producto 7">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Buso n°1</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Buso de running con capucha amortiguación
+                        ligera.</p>
+                      <div class="fw-bold mt-2 text-center">$ 99.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 8 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Buso-Basico-2.png" class="card-img-top" alt="Producto 8">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Buso n°2</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Buso urbano con capucha de alta costura.</p>
+                      <div class="fw-bold mt-2 text-center">$ 79.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 9 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Buso-Basico-3.png" class="card-img-top" alt="Producto 9">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Buso n°3</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Buso estilo urbano con capucha de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 100.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 10 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Short-Cargo-1.png" class="card-img-top" alt="Producto 10">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Short n°1</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con tela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 59.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 11 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Short-Cargo-2.png" class="card-img-top" alt="Producto 11">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Short n°2</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Short estilo urbano con tela de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 49.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 12 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Short-Cargo-3.png" class="card-img-top" alt="Producto 3">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Busi n°3</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Short estilo urbano con tela de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 39.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ===== Slide 3 (productos 13–18) ===== -->
+            <div class="carousel-item">
+              <div class="row g-3">
+                <!-- Card 13-->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Accesorio_1.png" class="card-img-top" alt="Producto 13">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Anteojos</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Anteojos de running de alta duración.</p>
+                      <div class="fw-bold mt-2 text-center">$ 129.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 14 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Accesorio_2.png" class="card-img-top" alt="Producto 14">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Reloj</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Reloj estilo clásico de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 399.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 15 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Accesorio_3.png" class="card-img-top" alt="Producto 15">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Paleta P.</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano hecha con madera de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 249.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 16 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Camiseta-1.png" class="card-img-top" alt="Producto 16">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta n°1</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Camiseta titular de la Selección.</p>
+                      <div class="fw-bold mt-2 text-center">$ 179.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 17 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Zapatillas-Adidas-1.png" class="card-img-top" alt="Producto 17">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla n°1</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con suela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 189.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 18 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Buso-Basico-1.png" class="card-img-top" alt="Producto 18">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Buso n°1</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Buso estilo urbano con capucha de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 459.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ===== Slide 4 (productos 19–24) ===== -->
+            <div class="carousel-item">
+              <div class="row g-3">
+                <!-- Card 19-->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Short-Cargo-1.png" class="card-img-top" alt="Producto 19">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Short n°1</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con tela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 49.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 20 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Zapatillas-Adidas-2.png" class="card-img-top" alt="Producto 20">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla n°2</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con suela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 199.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 21 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Accesorio_2.png" class="card-img-top" alt="Producto 21">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Reloj</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Reloj estilo clásico de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 399.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 22 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Short-Cargo-3.png" class="card-img-top" alt="Producto 22">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Short n°3</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Short estilo urbano con tela de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 39.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 23 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Camiseta-2.png" class="card-img-top" alt="Producto 23">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta n°2</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Camiseta suplente de la Selección.</p>
+                      <div class="fw-bold mt-2 text-center">$ 149.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 24 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Buso-Basico-3.png" class="card-img-top" alt="Producto 24">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Buso n°3</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Buso estilo urbano con capucha de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 100.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Flechas -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#adidasCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#adidasCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="productos-new_balance" class="py-5 bg-dark text-light">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h2 class="h3 fw-bold text-uppercase mb-0">Productos New Balance</h2>
+          <!-- Indicadores (opcionales) -->
+          <div class="d-none d-md-flex gap-2">
+            <button type="button" data-bs-target="#adidasCarousel" data-bs-slide-to="0"
+              class="btn btn-sm btn-outline-light" aria-current="true">1</button>
+            <button type="button" data-bs-target="#adidasCarousel" data-bs-slide-to="1"
+              class="btn btn-sm btn-outline-light">2</button>
+            <button type="button" data-bs-target="#adidasCarousel" data-bs-slide-to="2"
+              class="btn btn-sm btn-outline-light">3</button>
+            <button type="button" data-bs-target="#adidasCarousel" data-bs-slide-to="3"
+              class="btn btn-sm btn-outline-light">4</button>
+          </div>
+        </div>
+
+        <div id="adidasCarousel" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-inner">
+
+            <!-- ===== Slide 1 (productos 1–6) ===== -->
+            <div class="carousel-item active">
+              <div class="row g-3">
+                <!-- Card 1-->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Camiseta-1.png" class="card-img-top" alt="Producto 1">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta n°1</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Camiseta titular de la Selección.</p>
+                      <div class="fw-bold mt-2 text-center">$ 179.999</div>
+                      <a href="/Assets/img/Camiseta-1.png" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Camiseta-2.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta n°2</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Camiseta suplente de la Selección.</p>
+                      <div class="fw-bold mt-2 text-center">$ 149.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Camiseta-3.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta n°3</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Camiseta suplente de la Selección.</p>
+                      <div class="fw-bold mt-2 text-center">$ 119.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Zapatillas-Adidas-1.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla n°1</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con suela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 189.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Zapatillas-Adidas-2.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla n°2</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con suela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 159.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Zapatillas-Adidas-3.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla n°3</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con suela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 149.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ===== Slide 2 (productos 7–12) ===== -->
+            <div class="carousel-item">
+              <div class="row g-3">
+                <!-- Card 7-->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Buso-Basico-1.png" class="card-img-top" alt="Producto 7">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Buso n°1</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Buso de running con capucha amortiguación
+                        ligera.</p>
+                      <div class="fw-bold mt-2 text-center">$ 99.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 8 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Buso-Basico-2.png" class="card-img-top" alt="Producto 8">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Buso n°2</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Buso urbano con capucha de alta costura.</p>
+                      <div class="fw-bold mt-2 text-center">$ 79.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 9 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Buso-Basico-3.png" class="card-img-top" alt="Producto 9">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Buso n°3</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Buso estilo urbano con capucha de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 100.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 10 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Short-Cargo-1.png" class="card-img-top" alt="Producto 10">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Short n°1</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con tela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 59.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 11 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Short-Cargo-2.png" class="card-img-top" alt="Producto 11">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Short n°2</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Short estilo urbano con tela de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 49.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 12 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Short-Cargo-3.png" class="card-img-top" alt="Producto 3">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Busi n°3</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Short estilo urbano con tela de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 39.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ===== Slide 3 (productos 13–18) ===== -->
+            <div class="carousel-item">
+              <div class="row g-3">
+                <!-- Card 13-->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Accesorio_1.png" class="card-img-top" alt="Producto 13">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Anteojos</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Anteojos de running de alta duración.</p>
+                      <div class="fw-bold mt-2 text-center">$ 129.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 14 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Accesorio_2.png" class="card-img-top" alt="Producto 14">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Reloj</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Reloj estilo clásico de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 399.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 15 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Accesorio_3.png" class="card-img-top" alt="Producto 15">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Paleta P.</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano hecha con madera de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 249.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 16 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Camiseta-1.png" class="card-img-top" alt="Producto 16">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta n°1</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Camiseta titular de la Selección.</p>
+                      <div class="fw-bold mt-2 text-center">$ 179.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 17 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Zapatillas-Adidas-1.png" class="card-img-top" alt="Producto 17">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla n°1</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con suela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 189.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 18 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Buso-Basico-1.png" class="card-img-top" alt="Producto 18">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Buso n°1</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Buso estilo urbano con capucha de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 459.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ===== Slide 4 (productos 19–24) ===== -->
+            <div class="carousel-item">
+              <div class="row g-3">
+                <!-- Card 19-->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Short-Cargo-1.png" class="card-img-top" alt="Producto 19">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Short n°1</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con tela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 49.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 20 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Zapatillas-Adidas-2.png" class="card-img-top" alt="Producto 20">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Zapatilla n°2</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Estilo urbano con suela de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 199.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 21 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Accesorio_2.png" class="card-img-top" alt="Producto 21">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Reloj</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Reloj estilo clásico de alta tracción.</p>
+                      <div class="fw-bold mt-2 text-center">$ 399.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 22 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Short-Cargo-3.png" class="card-img-top" alt="Producto 22">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Short n°3</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Short estilo urbano con tela de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 39.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 23 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Camiseta-2.png" class="card-img-top" alt="Producto 23">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Camiseta n°2</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Camiseta suplente de la Selección.</p>
+                      <div class="fw-bold mt-2 text-center">$ 149.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 24 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                  <div class="card h-100 bg-light text-dark">
+                    <img src="/assets/img/img-adidas/Buso-Basico-3.png" class="card-img-top" alt="Producto 24">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Buso n°3</h5>
+                      <p class="card-text small flex-grow-1 opacity-75">Buso estilo urbano con capucha de alta tracción.
+                      </p>
+                      <div class="fw-bold mt-2 text-center">$ 100.999</div>
+                      <a href="/pages/detalle_carrito.html" class="btn btn-primary btn-sm mt-auto w-100">
+                        Más detalles
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Flechas -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#adidasCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#adidasCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="marcas" class="py-5">
+      <div class="container">
+        <h1 class="text-center p-5">- Explorá lo Mejor en Indumentaria y Calzado -</h1>
+        <div class="row align-items-center g-4 mb-5" data-aos="fade-up">
+          <div class="col-12 col-md-6">
+            <div class="ratio ratio-16x9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/gkIKphi2_P4?si=4lFMcu_ZFuy8paaq"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <h2 class="display-6 fw-bold text-primary text-center text-uppercase" data-aos="zoom-in"
+              data-aos-duration="1200">
+              Adidas
+            </h2>
+            <p class="lead mb-3 text-center">
+              Adidas representa innovación y energía deportiva. Cada producto
+              combina tecnología, diseño y sustentabilidad para acompañarte en
+              tu entrenamiento o en tu día a día con estilo.
+            </p>
+            <p class="mb-0 opacity-75 text-center">
+              Su lema “Impossible is Nothing” inspira a superar límites y
+              romper barreras.
+            </p>
+          </div>
+        </div>
+
+        <div class="row align-items-center g-4 mb-5" data-aos="fade-up">
+          <div class="col-12 col-md-6">
+            <h2 class="display-6 fw-bold text-danger text-center text-uppercase" data-aos="zoom-in"
+              data-aos-duration="1200">
+              Nike
+            </h2>
+            <p class="lead mb-3 text-center text-center">
+              Nike impulsa el movimiento con innovación y pasión. Su icónico
+              “Just Do It” motiva a millones de atletas en todo el mundo a
+              alcanzar sus metas con determinación y confianza.
+            </p>
+            <p class="mb-0 opacity-75 text-center">
+              Calzado, ropa y accesorios diseñados para el máximo rendimiento.
+            </p>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="ratio ratio-16x9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Bcpu-jqAL6w?si=C24JOI9IUaIeq_cj"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-items-center g-4 mb-5" data-aos="fade-up">
+          <div class="col-12 col-md-6">
+            <div class="ratio ratio-16x9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Ew8i-01ev5o?si=3kswR4HLDR1iRCX2"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <h2 class="display-6 fw-bold text-warning text-center text-uppercase" data-aos="zoom-in"
+              data-aos-duration="1200">
+              Puma
+            </h2>
+            <p class="lead mb-3 text-center">
+              Puma fusiona deporte, moda y cultura urbana. Sus colecciones
+              reflejan energía joven, velocidad y originalidad, colaborando
+              con grandes figuras del deporte y la música.
+            </p>
+            <p class="mb-0 opacity-75 text-center">
+              Un estilo audaz que combina rendimiento y actitud.
+            </p>
+          </div>
+        </div>
+
+        <div class="row align-items-center g-4" data-aos="fade-up">
+          <div class="col-12 col-md-6">
+            <h2 class="display-6 fw-bold text-success text-center text-uppercase" data-aos="zoom-in"
+              data-aos-duration="1200">
+              New Balance
+            </h2>
+            <p class="lead mb-3 text-center">
+              Reebok promueve la autosuperación y el bienestar físico. Su
+              enfoque está en el fitness funcional y el estilo de vida
+              saludable, sin perder el toque clásico que la distingue.
+            </p>
+            <p class="mb-0 opacity-75 text-center">
+              Inspirada en quienes buscan moverse, mejorar y nunca detenerse.
+            </p>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="ratio ratio-16x9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/ftgwHIe9NNY?si=yy5kwYVJrU-kdrUw"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2 class="text-center mb-4 fw-bold pt-5">Preguntas más frecuentes</h2>
+        <div class="accordion" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-light text-dark fw-bold" type="button"
+                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                aria-controls="flush-collapseOne">
+                ¿Cómo puedo realizar una compra?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Podés realizar tu compra directamente desde nuestra tienda
+                online. Solo elegí el producto, agregalo al carrito y seguí
+                los pasos del proceso de pago.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-light text-dark fw-bold" type="button"
+                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                aria-controls="flush-collapseTwo">
+                ¿Qué medios de pago aceptan?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Aceptamos tarjetas de crédito, débito, transferencias
+                bancarias y plataformas digitales como Mercado Pago.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-light text-dark fw-bold" type="button"
+                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                aria-controls="flush-collapseThree">
+                ¿Hacen envíos a todo el país?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Sí, realizamos envíos a todo el país mediante correo. Los
+                costos y tiempos de entrega varían según tu ubicación.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-light text-dark fw-bold" type="button"
+                data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false"
+                aria-controls="flush-collapseFour">
+                ¿Puedo cambiar o devolver un producto?
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Sí, podés solicitar un cambio o devolución dentro de los 10
+                días posteriores a la recepción del producto, siempre que esté
+                en perfecto estado y con su empaque original.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-light text-dark fw-bold" type="button"
+                data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false"
+                aria-controls="flush-collapseFive">
+                ¿Cómo puedo contactar con atención al cliente?
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"> Podés comunicarte con nosotros por correo electrónico
+                o a través del formulario de contacto de la web.
+                Nuestro equipo te responderá lo antes posible.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8">
+            <div class="border bg-black rounded-4 p-4 ">
+              <h2 class="h5 text-center mb-2">Recibí ofertas y novedades</h2>
+              <p class="text-light text-center mb-4">
+                Suscribite al newsletter (podés cancelar cuando quieras).
+              </p>
+
+              <form class="row g-3 needs-validation justify-content-center">
+                <div class="col-12 col-md-5">
+                  <label for="validationCustom01" class="form-label">Nombre:</label>
+                  <input type="text" class="form-control bg-light text-dark" id="validationCustom01"
+                    placeholder="Escribe tu nombre..." minlength="4" maxlength="20" required>
+                  <div class="valid-feedback">Muy bien!!!</div>
+                </div>
+                <div class="col-12 col-md-5">
+                  <label for="validationCustomUsername" class="form-label">Email:</label>
+                  <div class="input-group has-validation">
+                    <input type="email" class="form-control bg-light text-dark" id="validationCustomUsername"
+                      aria-describedby="inputGroupPrepend" placeholder="tu_correo@mail.com" minlength="10"
+                      maxlength="20" required>
+                    <div class="invalid-feedback">Por favor, ingresa un email válido.</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check d-flex justify-content-center">
+                    <input class="form-check-input me-2" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">Acepto recibir
+                      notificaciones.</label>
+                    <div class="invalid-feedback text-center">Debes aceptar antes de enviar.</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-outline-light d-block mx-auto px-4" type="submit">Suscribirme</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-primary">
+      <div class="container">
+        <h2 class="text-light text-center teko-title pt-5">Rendí Más. Entrená Mejor.</h2>
+        <h3 class="fw-bold text-light text-center pt-2">Tu pasión merece lo Mejor!!!</h3>
+        <h5 class="text-light text-center pb-2">Viví el deporte todos los días. No dejes de visitar nuestra
+          tienda y seguí entrenando con estilo.</h5>
+        <div class="d-flex justify-content-center p-5 gap-5 flex-wrap">
+          <a href="https://play.google.com/store/games?hl=es_AR" target="_blank">
+            <img src="/assets/img/google-play-badge-bb.svg" style="height: 75px;" alt="Google Play">
+          </a>
+          <a href="https://www.apple.com/la/app-store/" target="_blank">
+            <img src="/assets/img/badge-apple-store.svg" style="height: 75px;" alt="App Store">
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container-fluid bg-black">
+      <div class="d-flex justify-content-center">
+        <a class="text-center" href="/index.html">
+          <img src="/assets/img/Logo.png" alt="Logo"
+            class="Logo col-4 col-md-2 col-lg-1 p-1 my-4 img-fluid rounded-circle">
+        </a>
+      </div>
+      <div class="row text-center">
+        <div class="col-12 col-md-6 col-lg-3 px-5">
+          <a class="Texto" href="/index.html">Inicio</a><br>
+          <a class="Texto" href="/pages/contacto.html">Contacto</a><br>
+          <a class="Texto" href="/pages/nosotros.html">Nosotros</a><br>
+          <a class="Texto" href="/pages/error_404.html">Términos y condiciones</a><br>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 px-5">
+          <a class="Texto" href="/pages/inicio-sesion.html">Iniciar sesion</a><br>
+          <a class="Texto" href="/pages/registro.html">Registrarse</a><br>
+          <a class="Texto" href="/pages/error_404.html">Realizar pedidos</a><br>
+          <a class="Texto" href="/pages/error_404.html">Novedades</a><br>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 px-5">
+          <a class="Texto" href="/pages/error_404.html">Como comprar</a><br>
+          <a class="Texto" href="/pages/error_404.html">Tabla de talles</a><br>
+          <a class="Texto" href="/pages/error_404.html">Sucursales</a><br>
+          <a class="Texto" href="/pages/error_404.html">Metodos de pago</a><br>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 px-5">
+          <a class="Texto" href="/pages/error_404.html">Envios</a><br>
+          <a class="Texto" href="/pages/error_404.html">Privacidad</a><br>
+          <a class="Texto" href="/pages/error_404.html">Tienda</a><br>
+          <a class="Texto" href="/pages/error_404.html">Cambios y devoluciones</a><br>
+        </div>
+        <p class="p-5">© Student Code Todos los Derechos Reservados - 2025</p>
+        <hr>
+      </div>
+      <div class="d-flex justify-content-center gap-3 pb-4">
+        <a href="https://www.instagram.com/">
+          <i class="Instagram fa-brands fa-instagram fa-2x"></i>
+        </a>
+        <a href="https://x.com/X.">
+          <i class="Twitter fa-brands fa-x-twitter fa-2x"></i>
+        </a>
+        <a href="https://www.facebook.com/">
+          <i class="Facebook fa-brands fa-square-facebook fa-2x"></i>
+        </a>
+        <a href="https://www.tiktok.com/">
+          <i class="Tiktok fa-brands fa-tiktok fa-2x"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <div class="modal fade" id="Modal1" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Adidas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ratio ratio-16x9">
+            <iframe class="w-100" src="https://www.youtube.com/embed/q_7I5ilVax4?si=Mbp7nn5ocJz-TtFJ"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" fullscreen></iframe>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <p>Adidas es una empresa deportiva alemana con ingresos de unos €23.700 millones en 2024, que
+            recuperó su rentabilidad tras pérdidas recientes y es reconocida por su marca de las tres
+            tiras.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="Modal2" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Nike</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ratio ratio-16x9">
+            <iframe class="w-100" src="https://www.youtube.com/embed/uXlWYZ022zU?si=BRhXQbVaQdpbuLqd"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <p>Nike es una multinacional de ropa y calzado deportivo con ingresos de 46.710 millones de
+            dólares en 2022, que externaliza su producción en países como Vietnam, China, Filipinas e
+            Indonesia para optimizar costos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="Modal3" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">New Balance</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ratio ratio-16x9">
+            <iframe class="w-100" src="https://www.youtube.com/embed/OSA_cqCPD9M?si=I0VYup_JJoTa-Qu3"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <p>New Balance es una marca estadounidense con 6.500 millones de dólares en ventas en 2023, que
+            mantiene producción en EE.UU. y Reino Unido y se distingue por su calidad técnica y variedad
+            de talles.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="Modal4" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Puma</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ratio ratio-16x9">
+            <iframe class="w-100" src="https://www.youtube.com/embed/2PtmldjGtk0?si=GTNADHUEFPb7s8fT"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <p>Puma es una marca alemana de ropa y calzado deportivo con ingresos de €8.817 millones en
+            2024, que genera más de la mitad de sus ventas por calzado y obtuvo un beneficio neto de
+            €281,6 millones .</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/362f238c3f.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: false // false = se anima cada vez que entran en pantalla
+    });
+  </script>
+
 </body>
 
 </html>

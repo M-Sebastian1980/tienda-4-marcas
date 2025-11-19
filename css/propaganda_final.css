@@ -1,0 +1,22 @@
+/* TITULO principal estilo TEKO */
+.teko-title {
+  font-family: "Teko", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Párrafo estilo Poppins */
+.poppins-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+/* Ajustes responsive */
+@media (max-width: 576px) {
+  .teko-title {
+    font-size: 2.2rem;
+  }
+}
