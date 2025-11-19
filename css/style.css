@@ -10,6 +10,11 @@
     color: black;
 }
 
+.Botones:hover {
+    scale: calc(1.009);
+    color: rgb(201, 201, 201);
+}
+
 .Interior {
     background-color: #2d3135;
 }
