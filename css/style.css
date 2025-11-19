@@ -1,0 +1,11 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.Talles:hover {
+    scale: calc(1.1);
+    background-color: white;
+    color: black;
+}
