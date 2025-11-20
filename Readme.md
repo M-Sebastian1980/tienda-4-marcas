@@ -1,7 +1,7 @@
 <h1 align="center">Student´s Code</h1>
 
 <div align="center">
-  <img src="assets/img/Logo.png" alt="Logo" width="250">
+  <img src="assets/img/Logo.png" alt="Logo" width="280">
 </div>
 
 E-commerce de indumentaria de ropa y accesorios **Adidas, Nike Puma y New Balance** catálogo por marca, categoria y detalle de producto todo echo con **HTML + CSS + Bootstrap**.
