@@ -1,0 +1,95 @@
+
+#camisetaCarousel .carousel-item .row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#camisetaCarousel .carousel-item .col-12 {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 575px) {
+  #camisetaCarousel .carousel-item .col-12 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #camisetaCarousel .carousel-item .col-md-4 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+
+#zapatillaCarousel .carousel-item .row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#zapatillaCarousel .carousel-item .col-12 {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 575px) {
+  #zapatillaCarousel .carousel-item .col-12 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #zapatillaCarousel .carousel-item .col-md-4 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+
+#abrigoCarousel .carousel-item .row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#abrigoCarousel .carousel-item .col-12 {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 575px) {
+  #abrigoCarousel .carousel-item .col-12 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #abrigoCarousel .carousel-item .col-md-4 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+
+#veranoCarousel .carousel-item .row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#veranoCarousel .carousel-item .col-12 {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 575px) {
+  #veranoCarousel .carousel-item .col-12 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #veranoCarousel .carousel-item .col-md-4 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
