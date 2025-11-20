@@ -1,82 +1,36 @@
-# Tienda 4 Marcas - 2025
+<h1 align="center">Student´s Code</h1>
 
-E-commerce estático de **4 marcas deportivas** (landing, catálogo por marca, detalle de producto y contacto) hecho con **HTML + CSS + Bootstrap 5**.
+<div align="center">
+  <img src="assets/img/Logo.png" alt="Logo" width="250">
+</div>
+
+E-commerce de indumentaria de ropa y accesorios **Adidas, Nike Puma y New Balance** catálogo por marca, categoria y detalle de producto todo echo con **HTML + CSS + Bootstrap**.
 
 ## 🚀 Objetivos
-- Mostrar productos de 4 marcas (slides/carouseles por marca).
-- Página de detalle con fotos, precio y descripción.
-- Contacto con formulario + mapa embebido.
+- Mostrar productos de las 4 marcas (carouseles por marca).
+- Página de detalle de producto con fotos, precio y descripción detallada.
+- Contacto: Formulario + Mapa indicando la dirección precisa.
 - Diseño **responsive** (SM/MD/LG) y accesible.
 
-## 🛠️ Stack
-- HTML5, CSS3
-- Bootstrap 5.3.x (CDN)
-- (Opcional) Íconos: Font Awesome / Bootstrap Icons
-
-## 📁 Estructura sugerida
-- /assets
-- /img
-- /css
-- /pages
-- styles.css
-- index.html
-- productos.html # grilla por marca
-- detalle.html # detalle de producto
-- contacto.html # formulario + mapa
+## 🛠️ Herramientas Utilizadas
+- **HTML** (Estructura del sitio)
+- **CSS** (Estilos y personalización visual)
+- **Bootstrap** (Componentes y sistema de grillas)
+- **Font Awesome** (Iconos adicionales)
+- **Bootstrap Icons** (Iconos integrados con Bootstrap)
+- **Animate.css** (Efectos de movimientos)
+- **Google Fonts** (Tipografías externas)
+- **Emojiterra** (Emojis utilizados en la interfaz)
 
 
-## 🔧 Uso local
-No requiere servidor: abrí `index.html` en el navegador.  
-(Opcional) Si usás Live Server de VSCode, mejor para auto-refresh.
 
 ## 🌿 Flujo de trabajo (Git)
-- Rama principal: `main`
-- Rama de desarrollo: `dev`
-- Feature branches: `feature/nombre-corto`
-- Fix branches: `fix/descripcion`
+- Rama principal: `main` – versión final del proyecto
+- Rama de desarrollo: `dev` – integración de nuevas funciones
+- Ramas: `feature/nombre-corto` – desarrollo de nuevas características
+- Ramas de corrección: `fix/descripcion` – solución de errores puntuales
 
-**Pasos típicos:**
-- bash
-- git checkout -b feature/seccion-contacto
-# ... cambios ...
-- git add .
-- git commit -m "feat(contacto): agrega formulario y mapa"
-- git push -u origin feature/seccion-contacto
-# abrir Pull Request → base: dev
+## 👥 Integrantes del Equipo
 
-## 🧾 Convención de commits
-
-Usaremos prefijos para mantener un historial limpio y claro:
-
-- `feat:` nueva funcionalidad  
-- `fix:` corrección de errores  
-- `chore:` tareas varias (estructura, configuración, limpieza)  
-- `style:` estilos, maquetado o cambios visuales  
-- `docs:` documentación o comentarios
-
----
-
-## ✅ Checklist inicial
-
-- [ ] Navbar con links a secciones  
-- [ ] Carrusel/slider por cada marca  
-- [ ] Cards de productos (SM=2, MD=4, LG=6 por slide)  
-- [ ] Página de detalle con specs y CTA  
-- [ ] Formulario de contacto con validación de Bootstrap  
-- [ ] Footer con redes sociales
-
----
-
-## 👥 Equipo
-
-- **Owner:** @tuUsuario  
-- **Colaboradores:** @user1, @user2, @user3  
-
-> *(Reemplazá los nombres por los usuarios reales del equipo)*
-
----
-
-## 📄 Licencia
-
-Proyecto distribuido bajo la licencia **MIT**.  
-Podés modificarla o reemplazarla si el equipo lo requiere.
+- **Abel Ruiz**
+- **Mauro Seu**
