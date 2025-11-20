@@ -1,31 +1,95 @@
 
-.card img {
-  transition: transform 0.3s;
+#camisetaCarousel .carousel-item .row {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
-.card:hover img {
-  transform: scale(1.08);
+#camisetaCarousel .carousel-item .col-12 {
+  flex: 0 0 auto;
 }
-/* Hace scroll horizontal en pantallas pequeñas y medianas */
-@media (max-width: 992px) {
-  #productos-adidas .carousel-item .row {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
-    display: flex;
-  }
 
-  #productos-adidas .carousel-item .col-12,
-  #productos-adidas .carousel-item .col-sm-6,
-  #productos-adidas .carousel-item .col-md-4,
-  #productos-adidas .carousel-item .col-lg-2 {
-    flex: 0 0 auto;   /* Evita que las cards se partan a otra fila */
-    width: 70%;       /* Tamaño de la card en móviles */
-    max-width: 200px; /* Opcional */
+@media (max-width: 575px) {
+  #camisetaCarousel .carousel-item .col-12 {
+    flex: 0 0 50%;
+    max-width: 50%;
   }
+}
 
-  /* Quitar scrollbars si quieres */
-  #productos-adidas .carousel-item .row::-webkit-scrollbar {
-    display: none;
+@media (min-width: 768px) and (max-width: 991px) {
+  #camisetaCarousel .carousel-item .col-md-4 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+
+#zapatillaCarousel .carousel-item .row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#zapatillaCarousel .carousel-item .col-12 {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 575px) {
+  #zapatillaCarousel .carousel-item .col-12 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #zapatillaCarousel .carousel-item .col-md-4 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+
+#abrigoCarousel .carousel-item .row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#abrigoCarousel .carousel-item .col-12 {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 575px) {
+  #abrigoCarousel .carousel-item .col-12 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #abrigoCarousel .carousel-item .col-md-4 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+
+#veranoCarousel .carousel-item .row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#veranoCarousel .carousel-item .col-12 {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 575px) {
+  #veranoCarousel .carousel-item .col-12 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #veranoCarousel .carousel-item .col-md-4 {
+    flex: 0 0 25%;
+    max-width: 25%;
   }
 }
